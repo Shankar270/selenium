@@ -1,0 +1,70 @@
+locators
+we can identify various elements on the web using locators
+locator are address that identify a web element uniquely within the page
+locators
+--------
+a. ID
+b. NAME
+c. LINKTEXT\PARTIAL LINK TEXT
+d. CLASS NAME
+e. TAGNAME
+--------------------------------------
+ID and name
+
+
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://demo.nopcommerce.com/")
+#driver.find_element(By.ID,"small-searchterms").send_keys("lenvo thinkpad")
+driver.find_element(By.NAME,"q").send_keys("lenvothinkpad")
+driver.maximize_window()
+time.sleep(5)
+driver.close()
+----------------------------
+<sample project registration>
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://demo.nopcommerce.com/")
+driver.maximize_window()
+driver.find_element(By.LINK_TEXT, "Register").click()
+radio_male = driver.find_element(By.XPATH, "//*[@id='gender-male']")
+radio_male.click()
+driver.find_element(By.ID, "FirstName").send_keys("shankar")
+driver.find_element(By.ID, "LastName").send_keys("gupta")
+
+
+drop_day = driver.find_element(By.XPATH, "/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[1]")
+drop_day = Select(drop_day)
+drop_day.select_by_value("4")
+
+drop_month = driver.find_element(By.XPATH, "/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[2]")
+drop_month = Select(drop_month)
+drop_month.select_by_index(6)
+
+
+drop_year= driver.find_element(By.XPATH, "/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[4]/div/select[3]")
+drop_year = Select(drop_year)
+drop_year.select_by_value("1997")
+
+driver.find_element(By.NAME, "Email").send_keys("boyx971@gmail.com")
+
+driver.find_element(By.ID, "Newsletter").click()
+driver.find_element(By.ID, "Password").send_keys("Boyx971@")
+driver.find_element(By.ID, "ConfirmPassword").send_keys("Boyx971@")
+register = driver.find_element(By.NAME, "register-button")
+register.click()
+time.sleep(10)
+driver.close()
