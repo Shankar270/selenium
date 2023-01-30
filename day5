@@ -1,0 +1,21 @@
+navigational commands
+-----------------------------
+#back
+#forward
+#refresh
+
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://demo.nopcommerce.com/")
+driver.get("https://facebook.com/")
+driver.back()
+driver.forward()
+driver.refresh()
+----------------------------------------
