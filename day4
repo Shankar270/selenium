@@ -1,0 +1,69 @@
+CSS_SELECTOR
+-----------------------------------------
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://www.facebook.com/")
+# driver.find_element(By.CSS_SELECTOR, "input#email").send_keys("9862922751")  # using_id
+driver.find_element(By.CSS_SELECTOR, 'input[data-testid="royal_email"]').send_keys("boy971@gmail.com")
+
+driver.find_element(By.CSS_SELECTOR, 'input[data-testid="royal_pass"]').send_keys("abc123@") # using_class
+
+driver.find_element(By.NAME, "login").click()
+time.sleep(5)
+driver.close()
+
+------------------------------------
+APPLICATION COMMAND
+#title
+#current_url
+#page_source
+#get
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://www.facebook.com/")
+print(driver.title)
+print(driver.current_url)
+driver.quit()
+----------------------------------------------------------
+CONDITIONAL_COMMAND
+
+# is_displayed()
+# is_enabled()
+# is_selected()
+
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
+Serv_obj = Service(r"E:\python test\seleniumlearnings\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(service=Serv_obj)
+driver.get("https://demo.nopcommerce.com/")
+driver.maximize_window()
+search_box=driver.find_element(By.XPATH, '//*[@id="small-searchterms"]')
+print("Display_status", search_box.is_displayed())
+print("enable_status", search_box.is_enabled())
+
+# is_selected()
+driver.find_element(By.LINK_TEXT, "Register").click()
+rd_male = driver.find_element(By.XPATH, "//input[@id='gender-male']")
+# print(rd_male.is_selected())
+rd_male.click()
+print(rd_male.is_selected())
+driver.close()
+
+
