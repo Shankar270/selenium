@@ -1,0 +1,678 @@
+1)Which of the following is a feature of JUnit
+Dependency between testcases
+VO Tests can be timed out..........
+Tests can be grouped
+Test cases can be prioritized
+2)The method that was used by Selenium
+initially to avoid the Same Origin Policy was
+O Enable Origin Policy for all browsers
+Proxy Injection..........
+Enable Same Origin Policy
+SQL Injection
+3)DOM stands for
+Document Orientation Model
+Document Object Model.........
+Detailed Object Model
+O Detailed Orientation Model
+4)Which is the fastest implementation of
+WebDriver?
+Chrome Driver
+HtmlUnit Driver...............
+Firefox Driver
+Internet Explorer Driver
+5)Selenium globbing pattern allows
+only
+asterisk and class
+Dollar symbol and character class
+asterisk and dollar symbols
+asterisk and character class..............
+6)The two ways of discovering the XPath of an
+element are ?
+Css and Firebug
+FireBug and FireXpath
+Inspect Element Tool and
+Firebug
+O
+VO Firebug and Xpath Checker.............
+7)What is Selenese?
+Selenium keywords
+Selenium scripting language
+Selenium commands............
+Selenium Class
+8)The Assert method of JUnit does NOT allow
+you to specify
+The error message
+Value of variables...............
+The Expected Result
+The Actual Result
+9)WebElement.clear()
+Clears the value of a textbox....................
+Deletes child elements of current web element
+Clears any hiding elements from view
+Clears the text of a label
+10)Selenium does NOT support
+automation of
+Jquery
+HTML5
+Flash..........
+AJAX
+11)The text pattern types that is NOT
+supported in Selenium is
+O globbing
+O regular expressions
+O template............
+O exact
+12)The following is not the Junit annotatio?
+BeforeClass
+VO DataProvider..................
+AfterClass
+Test
+13)Selenium can be deployed on the following
+Operating Systems
+Solaris, OS X
+Windows, Linux and Android
+Windows, Linux, Solaris and OS X...............
+Windows, Linux
+14)Which of these locators is fastest in
+identifying web elements?
+XPath
+ID.................
+DOM
+Css
+15)CSS stands for
+Consolidated Style Sheets
+Cascading Specification
+Sheets
+O Cascading Style Sheets..................
+Consolidated Specification
+Sheets
+16)Which of the following is NOT a feature of
+Selenium Webdriver?
+Usage of browser's native support for
+automaton
+Support for file upload
+O oriented API
+Support for OS native applications....................
+17)Following is not the step to run automation
+using Selenium
+Viewing the results in the format
+specified.................
+Run the test
+Modify the scripts according to the testing
+needs
+Record the scripts using Selenium IDE
+18)Which of the following statements about
+WebElement.getText() method is correct?
+Gets the text of current web element including
+sub- elements..................
+Gets the visible and invisible
+text from a web element
+Gets the text with leading and whitespaces
+Gets the inner HTML along O with text if
+sub-elements are present
+19)Websockets mechanism is used by
+Firefox Driver
+O Chrome Driver
+Safari Driver................
+Internet Explorer Driver
+20)Which of the following is not True about
+CSS locators?
+CSS locators do not work on
+Safari browser
+CSS locators are easy to read
+CSS locators can filter based on element
+text.............
+CSS locators are faster compared to XPath
+21)The method to get the value of a text field
+web element is
+O getTagName()
+O getAttribute().................
+O getText()
+O getValue()
+22)Which of the following is NOT an advantage
+of Webdriver in comparison with Selenium RC?
+O Multiple languages support.....................
+Realistic interaction with web elements
+O Object oriented API
+Executions are faster in Webdriver
+23) What tests can selenium do?
+Unit testing and Functional
+O Functional, Regression and Performance
+Integration and Regression
+Functional and Regression................
+24)Selenium IDE is less powerful in creation of
+scripts because
+Many actions are not recorded by IDE and have
+to be manually entered...........
+All the actions performed are recorded by IDE
+IDE does not record and we O have to do
+complete scripting manually
+Looping has to be done manually
+25) Parent node is referred to in Xpath as
+Ans: ..
+26)File upload is NOT supported by
+Internet Explorer Driver
+Firefox Driver
+VO Safari Driver.................
+O Chrome Driver
+27)The behavior of a web page is controlled by
+HTML
+CSS
+JavaScript.............
+Xpath
+28)The Exception: "No runnable methods"
+occurs when
+if you use the JUnit 3.4 core runner to execute
+a class that has no "@Test" method
+if you use the JUnit 4.4 core runner to execute
+a class that has no "@Test"
+method......................
+If class has compilation
+errors
+if you use the Junit 4 core O runner to execute
+a class that has no "@Test" method
+29) The Webdriver.getPageSource() method
+Gets the HTML source of last loaded
+page................
+O Gets the URL source of last loaded page
+Gets the URL source of first loaded page
+Gets the HTML source of first page
+30)What is the name of the package that you
+use for Junit
+import junit.
+*;
+O import package.junit.
+*;
+O import com.junit.
+*;
+O import org.junit.
+*;...................
+31) Which of the following methods is Invalid?
+Webdriver.findElement()
+WebElement.findElement()
+Webdriver.findElementById().............
+ElementFinder.findElement()
+32)The method to mimic refresh of the current
+page is
+Webdriver.navigate()..................
+O Webdriver.refresh()
+Webdriver.load()
+Webdriver.manage()
+33) Selenium IDE generates commands using
+Core
+Keywords
+Selenium Commands
+O Selenese..................
+34) The annotations generated with Junit 4
+tests in Selenium IDE are NOT
+The @Test public void method()
+The @Config public voidmethod().............
+The @After public voidmethod()
+O The @Before public void method()
+35) How do we add checkpoints manually to
+our tests in Selenium IDE?
+O Reference Section
+Context Menu.....................
+O Locator Builders
+Add Checkpoint Option
+36)What is the open source license that
+Selenium comes with?
+OBSD 3
+O Apache License 2.0................
+O MIT
+O OPL
+37)WebElement.isSelected() is NOT applicable
+for
+Menu Items...............
+Radio buttons
+Options in a drop-down
+Checkboxes
+38)The following is not the interface of Junit?
+Protectable
+TestFailure..................
+TestListener
+Test
+39)The following test framework is used with
+Java programming language?
+O jxl
+UnitTest
+✓ TestNG...............
+Nunit
+40)Which of the following uses native
+JavaScript calls.
+Selenium Core
+Selenium Web Driver
+Selenium Grid
+Selenium IDE..................
+41)The plug in for Selenium Ide that stores the
+screen shots automatically on script failure is
+ScreenShot on Fail plug in............
+Capture Screen Shot Plugin
+O Screen Grabber Plug in
+O Failed Screen shot Plug in
+42)storeFooPresent(variable) does
+Stores the text of pop-up into some default
+variable
+stores the text of the pop-up in a variable
+Stores the text of pop-up as a
+constant
+stores the text of the pop-up O in a variable and
+returns true or false...........
+43)How to handle Ajax controls in Selenium?
+Using wait for condition command.........
+Using wait for command
+Using wait for page to load command
+Using wait for script to load command
+44)Which of the following statements about
+Webdriver is correct?
+Webdriver is neutral for O platform, but
+depends on language
+Webdriver is neutral for Olanguage, but
+depends on platform
+Webdriver is platform and language neutral
+interface....................
+Webdriver is not neutral, O depends on
+platform and language
+45)The following is used to run the exported
+tests in any browser and any platform?
+Selenium Core
+Selenese
+Selenium Webdriver.................
+Selenium 2
+46)Using Selenium Server with non java
+language bindings is required for
+Firefox Driver
+Chrome Driver
+Internet Explorer Driver
+HtmlUnit Driver.............
+47)Which of the following is a replacement for
+Selenium RC?
+Selenium Grid
+O Selenium Server.......................
+Selenium Core
+Selenium Webdriver
+48)Which Selenium component is used to
+execute single test method in multiple
+browsers?
+Selenium IDE
+Selenium Web Driver
+Selenium Grid...............
+Selenium Core
+49)Which of these Selenium components drive
+tests natively on browsers instead of using
+Javascript?
+Selenium Webdriver...........
+Selenium IDE
+Selenium Core
+Selenium RC
+50) We cannot do the following if we use Junit
+Framework with our Selenium 1 or Selenium 2
+scripts
+We cannot use reporting O format other than
+XML & HTML....................
+We can define many reporting formats in our
+own way
+We can define many reporting formats in our
+own way but cannot add test data to reports
+We will not be able to define our own reporting
+format
+51)Which of the following find mechanism is
+NOT supported by By class?
+Tag Name
+DOM.......................
+Css
+Class Name
+52)Which method can be used to switch to a
+pop up window?
+O Webdriver selectWindow()
+Webdriver.navigate()
+VO Webdriver.switchTo()..................
+Webdriver.switchToWindow()
+53)The following is NOT the use of the
+annotation in JUnit?
+Compiler-time and
+deployment-time processing
+Information for the compiler
+VO Initiating JRE..............
+Runtime processing
+54)How do you edit the recorded command in
+IDE?
+Record->Edit
+By selecting the command. O and choosing
+the desired value from drop-down....................
+Edit Recording Mode
+No option is available
+55)Which of the following we use to check the
+properties of a web page?
+Assert, Verify and Check commands
+VO Assert and Verify Commands..............
+Check and Verify commands
+Check and Assert commands
+56)The following framework is an instance of
+the xUnit architecture for unit testing
+frameworks
+VO Junit...............
+TestNG
+Nunit
+O Hybrid
+57)Which of the following is NOT a
+pre-condition to click a element using
+WebElement.click() method?
+Element should be visible
+Element should have height and width greater
+than 0
+Element should be present
+Clicking on the element should not load a new
+page...............
+58)Selenium provides test results in following
+format
+HTML
+Selenium does not provide test
+results................
+Text
+XML
+59)The Webdriver get() method
+Launches a browser
+O Gets a web element
+Gets the text of a webelement
+VO Loads a URL............. . .
+60)Which of the following is NOT a Xpath
+operator
+Ans: /
+61)Headless execution is done by
+VO HtmlUnit Driver................
+Internet Explorer Driver
+Firefox Driver
+Chrome Driver
+62)Which of the following is NOT a feature in
+Selenium IDE?
+Adjust speed of test
+Looping and conditional statements are
+allowed...................
+Pause test
+Variable can be defined
+63)The interface which represents a browser in
+Selenium Webdriver is
+WebElement
+Browser Type
+Webdriver..............
+DriverCommand
+64)Selenium IDE is the add on only for the
+following browser
+Internet Explorer
+Safari
+Mozilla Firefox..............
+Google Chrome
+65)The sequence of evaluation and flow
+control is done in Selenium IDE using
+User Extensions.. ..................
+Looping Constructs
+Conditional Statements
+Assert Statements
+66)How to denote the parent element in XPath
+locator?
+O parent()
+Cannot be referred in Xpath (It is XPath
+constraint)
+.. answer
+O parent() and ..
+67)When clicking on a web element loads a
+new page, which of the of the following is
+correct about WebElement.click() method?
+Does not wait for the next page to load
+Attempts to wait until the page is
+loaded.................
+Click fails if a new page is loaded
+Blocks until page is loaded
+68)The content of a web page is controlled by
+Xpath
+VO HTML....................
+JavaScript
+O CSS
+69)What is the difference between
+Webdriver.findElement() and
+Webdriver.findElements() methods for a given
+By mechanism?
+FindElement() finds child element whereas
+findElements() finds all elements in a page
+FindElement() finds last matching element
+whereas findElements() finds all elements in a
+page
+FindElement() finds last matching element
+whereas findElements() finds all child
+elements in a page
+FindElement() finds first matching element
+whereas findElements() finds all elements in a
+page....................
+70)Which of the following is NOT a valid
+locator type in Selenium?
+Name
+OID
+O Value...................
+O CSS
+71)The three modes in which we can use the
+Selenium Assertions are
+Assert, VerifyAssertion and waitFor
+Assert, Verify and waitFor..........................
+assertAssertions, VerifyAssertions and
+waitFor
+Assert, Verify and Assertions
+72)The driver implementation which is NOT
+developed by seleniumhq
+Internet Explorer Driver
+Safari Driver
+Chrome Driver.....................
+Firefox Driver
+73)Where do we specify our user javascript
+extensions in Selenium IDE?
+File Menu
+Actions Menu
+Preference Menu
+Options Menu......................... ....
+74)Select the diasadvantage of Selenium from
+the following
+Does not support embedded Flash objects in
+web pages.....................
+Does not support Linux OS
+Does not support Python scripting language
+Does not support Opera browser
+75)Which of the following statements is
+incorrect?
+O Webdriver.quit() fails if any window is
+open....................
+Webdriver.close() quits Obrowser when only
+one window is open
+Webdriver.quit() closes all windows
+76)Which of the following statements about
+Webdriver is correct?
+JSON over TCP protocol is used
+XML over TCP protocol is used
+JSON over HTTP protocol is used.................
+XML over HTTP protocol is used
+77)What are the three major components of
+Selenium IDE?
+O Command, Target, Input
+Order, Target, Value
+O Command, Destination, Value
+O Command, Target, Value...................
+78)The deafult timeout value of recorded
+command is
+3s 30ms
+30s-30000ms........................
+305-300ms
+300s-3000ms
+79)The three flavours of Selenium Commands
+are
+O Command, Target, Value
+Core, Actions, Assertions
+Assertions, Actions and inputs
+Actions, Accessors and Assertions................
+80)How to denote the immediate child in CSS
+selectors?
+Ocurrent-child
+Immediate child cannot be handled in CSS
+.
+> ......................
+81)The layout of a web page is controlled by
+Xpath
+VO CSS....................
+HTML
+O JavaScript
+82)The Selenium command to print the two
+variables in the same line is
+PutVars
+echo..................
+GetVars
+StoreVars
+83)How can we change the test recorded in
+Xpath to css locator?
+Using the css selector O available next to Find
+in Selenium
+Select the element recorded using Xpath,
+enable the css selector and click on the Find
+Button
+O First enable the css selector and click on find
+button
+Using the drop down O available next to Find in
+Selenium..............
+84)WebElement.getLocation() returns
+Top left hand corner point of web
+element.................
+Bottom left hand corner point of web element
+Top right hand corner point of web elemen
+Bottom right hand corner point of web element
+85) In Xpath, indexing of element starts from
+2
+O
+1.................
+_1
+86)Selenium automates
+Navigators
+URLS
+Native applications
+Browsers................
+87)Difference between single and double slash
+as first character in XPath
+/refers to a node anywhere in the node
+hierarchy
+// refers to root node
+/refers to root node......................
+// refers to node after root node
+88)which of the following is not True about
+CSST
+CSS saves a lot of work
+Styles were added in HTML. S............................
+O External CSS are stored in files
+CSS defines how HTML elements are to be
+displayed
+89)Reference Section of Selenium IDE is
+wwwd for?
+Description of the commands.....................
+Expected result of commands
+Check for certain text
+To view the test execution
+90)Which of the following browsers require a
+server to be started to use Webdriver?
+O Internet Explorer
+Safari
+Firefox
+Chrome..........................
+91)What is the Selenium IDE plug in to run the
+Selenium Test Suite?
+Whit Code Plexer
+Test Runner.................
+Flex Pilot
+Test Suite Runner
+92)The following are the main components of
+Selenium RC?
+Client Libraries and Selenese commands
+Webdriver
+Selenium Server and Client
+Libraries........................
+Selenium Core, Webdriver and Selenium Server
+93)The interface which represents a HTML
+element in Selenium Webdriver is
+Webdriver
+WebElement................
+WrapsElement
+RemoteWebElement
+94)The syntax to compile a Junit Test Class
+is?
+javac -np junit-4.4.jar HelloTest.java
+javac junit-4.4.jar Hello
+Test.java..............................
+javac -cp junit-4.4.jar Hello Test.java
+javac -cp junit-4.4 Hello Test.java
+95)Which of these locators is NOT much
+readable comparitively?
+Old
+Name
+Identifier
+CSS............
+96)When locating by identifier, if no element
+has a matching id attribute
+Element with matching value is returned
+No element is returned
+Element with matching text is returned
+Element with matching name is
+returned...................
+97)The method to type text into a web element
+is
+WebElement.sendKeys()........................
+WebElement.type()
+WebElement.text()
+WebElement keyPress()
+98)Which of the following is NOT a
+WebElement method?
+OisDisplayed()
+isEnabled()
+isClicked() ......................
+isSelected()
+99)Which of the following is a feature of JUnit
+Tests can be timed out..........................
+Tests can be grouped
+Test cases can be prioritized
+Dependency between test cases
+100)The method that was used by Selenium
+initially to avoid the Same Origin Policy was
+Proxy Injection.................
+Enable Same Origin Policy
+Enable Origin Policy for all browsers
+SQL Injection
+101)DOM stands for
+Document Object Model.................
+Detailed Object Model
+Detailed Orientation Model
+Document Orientation
+102)Which is the fastest implementation
+of WebDriver?
+Firefox Driver
+Chrome Driver
+Internet Explorer Driver
+HtmlUnit Driver......................
+103)Selenium globbing pattern allows only
+Dollar symbol and character class
+asterisk and class
+asterisk and character class.....................
+asterisk and dollar
+104)The two ways of discovering the XPath of
+an element are ?
+FireBug and FireXpath
+Inspect Element Tool and Firebug
+OCss and Firebug
+VO Firebug and Xpath Checker........ ...............
+105)What is Selenese?
+VO Selenium commands...................
+Selenium scripting language
+O Selenium Class
+O Selenium keywords
+106)The Assert method of JUnit does NOT
+allow you to specify
+The Expected Result
+The Actual Result
+VO Value of variables..................
+The error message
+107) WebElement.clear()
+Clears the text of a label
+Clears the value of a textbox..................
+Clears any hiding elements from view
